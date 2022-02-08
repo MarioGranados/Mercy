@@ -37,38 +37,3 @@
         width: 0%;
     }
 }
-
-
-/*fade animations*/
-.fade_in {
-    animation: fade_in 3s;
-}
-
-@keyframes fade_in {
-    0% {
-        opacity: 0;
-    }
-    20% {
-        opacity: .2;
-    }
-    80% {
-        opacity: .8;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-/*.fade_up {
-    animation: fade_up 3s
-}
-@keyframes fade_up {
-
-    from {
-        margin-bottom: 0%;
-    }
-    to {
-        margin-bottom: 100%;
-    }
-}*/
-/*media queries*/
