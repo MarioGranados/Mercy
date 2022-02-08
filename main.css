@@ -1,78 +1,9 @@
-.container {
-    width: 150vh;
-    margin: auto;
-    background-color: rgba(0, 0, 139, 0.15);
-}
-.row {
-    display: flex;
-    justify-content: space-around;
-}
-
-.col {
-    padding: 5px;
-    background-color: rgba(95, 158, 160, 0.52);
-}
-
-.btn {
-    border-color: rgba(0, 0, 0, 0.18);
-    background-color: blue;
-    padding: 5px 10px;
-    color: white;
-    border-radius: 5px;
-    margin: 5px
-    transition: 250ms;
-}
-.btn:hover {
-     background-color: transparent;
-     color: black;
-    transition: 250ms;
- }
-
-.btn-outline {
-    border: rgb(0, 0, 0) 1px solid;
-    background-color: transparent;
-    color: black;
-    transition: 250ms;
-}
-
-.btn-outline:hover{
-    background-color: black;
-    color: white;
-    transition: 250ms;
-}
-
-.linear-grad-mid {
-
-}
-
-.linear-grad-light {
-
-}
-
-.text-center {
-    text-align: center;
-}
-.text-right {
-    text-align: right;
-}
-.text-left {
-    text-align: left;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.justify-content-center {
-    justify-content: center;
-
-}
-.justify-content-around {
-    justify-content: space-around;
-}
-.justify-content-between {
-    justify-content: space-between;
-}
-.justify-content-evenly {
-    justify-content: space-evenly;
+:root {
+    --bg_primary: blue;
+    --bg_dark: black;
+    --bg_red: red;
+    --bg_white: white;
+    --bg_green: green;
+    --bg_rgba: rgba(0, 0, 0, 0.8);
+    --bg_rgbaTrans: rgba(0, 0, 0, 0.29);
 }
