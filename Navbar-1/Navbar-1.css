@@ -1,1 +1,48 @@
-/*This Navbar needs Bootstrap*/
+:root {
+    --border: #DA4167;
+    --headers: #93B5C6;
+    --dark-bg: #22223B;
+    --navBarColor: #80FFE8;
+    --footer: #ADACB5;
+}
+
+nav {
+    width: 100%;
+    background-color: var(--navBarColor);
+    position: fixed;
+    transition: 250ms;
+    border-bottom: var(--border) 1px solid
+}
+
+.active_navbar {
+    background-color: var(--footer);
+    padding: 30px;
+    transition: 350ms;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+.nav_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .nav_items {
+    text-decoration: none;
+    padding: 10px;
+    transition: 250ms;
+}
+
+nav .nav_items:hover {
+    background-color: var(--headers);
+    cursor: pointer;
+    transition: 250ms;
+}
+
+nav .nav_items a {
+    padding: 10px;
+    text-decoration: none;
+}

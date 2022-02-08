@@ -1,0 +1,83 @@
+:root {
+    --buttonColor: #DA4167;
+    --buttonHover: #93B5C6;
+    --dark-bg: #22223B;
+    --headers: #80FFE8;
+    --footer-bg: #ADACB5;
+}
+
+/*Footer section*/
+
+footer {
+    width: 100%;
+    background-color: var(--footer-bg);
+    color: black;
+    position: relative;
+}
+
+
+/*form section*/
+
+form input , form textarea {
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+form button {
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: var(--buttonColor);
+    color: white;
+    border-radius: 5px;
+    border: solid 1px var(--dark-bg);
+    transition: 250ms;
+
+}
+form button:hover {
+    font-size: 20px;
+    background-color: var(--buttonHover);
+    transition: 250ms;
+}
+
+footer h4 {
+    font-size: 25px;
+    color: var(--headers);
+}
+
+/*footer continued...*/
+
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_section_col {
+    margin: auto;
+}
+
+.footer_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 25px 0;
+}
+
+footer a {
+    color: var(--dark-bg);
+    transition: 150ms;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: var(--headers);
+    transition: 250ms;
+    font-size: 25px;
+}

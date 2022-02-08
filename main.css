@@ -7,3 +7,29 @@
     --bg_rgba: rgba(0, 0, 0, 0.8);
     --bg_rgbaTrans: rgba(0, 0, 0, 0.29);
 }
+.bg_primary {
+    background-color: var(--bg_primary);
+}
+
+.bg_dark {
+    background-color: var(--bg_dark);
+    color: var(--bg_white);
+}
+
+.bg_red {
+    background-color: var(--bg_red);
+}
+
+.bg_white {
+    background-color: var(--bg_white);
+    color: var(--bg_dark);
+}
+
+.bg_green {
+    background-color: var(--bg_green);
+}
+
+.linear_grad {
+    background-image: linear-gradient(var(--bg_rgba), var(--bg_rgbaTrans));
+    color: var(--bg_white)
+}
